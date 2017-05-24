@@ -1,0 +1,7 @@
+DEPENDENCIES
+  test1
+    path: .
+    metadata: true
+
+GRAPH
+  test1 (0.1.0)
