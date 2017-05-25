@@ -8,6 +8,6 @@ apt_update 'Update the apt cache daily' do
   action :periodic
 end
 
-package %w(krb5-kdc krb5-admin-server) 
+package %w(mysql-server) 
 
-execute 'krb5_newrealm'
+
