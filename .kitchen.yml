@@ -20,7 +20,7 @@ verifier:
   name: inspec
 
 transport:
-  ssh_key: /home/ubuntu/.ssh/mdas.pem
+  ssh_key: /var/lib/jenkins/.ssh/mdas.pem
 
 platforms:
   - name: ubuntu-16.04
